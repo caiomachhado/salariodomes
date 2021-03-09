@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Salario do Mes</string>
+    <string name="app_name">Salário do Mes</string>
+    <string name="nomeFuncionario">Nome do Funcionário</string>
+    <string name="valorHorasTrabalhadas">Valor da Hora Trabalhada</string>
+    <string name="qtdDiasTrabalhados">Qtd. de Dias Trabalhados</string>
+    <string name="qtdHorasDias">Qtd. Hras Dias</string>
+    <string name="calcular">Calcular</string>
+
 </resources>
