@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import com.google.android.material.textfield.TextInputEditText
-import kotlinx.android.synthetic.main.activity_main.*
 import org.w3c.dom.Text
 
 class MainActivity : AppCompatActivity() {
