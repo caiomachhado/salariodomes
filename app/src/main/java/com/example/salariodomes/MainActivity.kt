@@ -10,7 +10,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         var nomeFuncionario = txtNomeFuncionario.text.toString()
-        var
+        var valHoraTrabalhada = txtValorHoraTrabalhada.text.toString().toFloat()
+        var qtdDiasTrabalhados = txtQtDiasTrabalhados.text.toString().toInt()
+        var qtdHoraDia = txtQtdHorasDia.text.toString().toInt()
 
     }
 }
