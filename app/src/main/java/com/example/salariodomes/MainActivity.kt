@@ -14,5 +14,9 @@ class MainActivity : AppCompatActivity() {
         var qtdDiasTrabalhados = txtQtDiasTrabalhados.text.toString().toInt()
         var qtdHoraDia = txtQtdHorasDia.text.toString().toInt()
 
+            fun calculaSalario(){
+                
+            }
+
     }
 }
