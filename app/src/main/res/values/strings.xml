@@ -5,5 +5,9 @@
     <string name="qtdDiasTrabalhados">Qtd. de Dias Trabalhados</string>
     <string name="qtdHorasDias">Qtd. Hras Dias</string>
     <string name="calcular">Calcular</string>
+    <string name="salarioBruto">Salário Bruto: </string>
+    <string name="descINSS">Desc. INSS: </string>
+    <string name="descFGTS">Desc. FGTS: </string>
+    <string name="salarioLiquido">Salário Líquido</string>
 
 </resources>
