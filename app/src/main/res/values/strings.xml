@@ -9,5 +9,7 @@
     <string name="descINSS">Desc. INSS: </string>
     <string name="descFGTS">Desc. FGTS: </string>
     <string name="salarioLiquido">Salário Líquido: </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
