@@ -14,7 +14,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/text_view_nome_funcionario"
+            android:id="@+id/edit_text_nome_funcionario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
@@ -30,7 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txtNomeFuncionario">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/text_view_valor_hora"
+            android:id="@+id/edit_text_valor_hora"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/valorHorasTrabalhadas" />
@@ -62,7 +62,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txtQtDiasTrabalhados">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/text_view_horas_trabalhadas"
+            android:id="@+id/edit_text_horas_trabalhadas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/qtdHorasDias" />
