@@ -41,18 +41,19 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun camposForamPreenchidos(): Boolean {
-        if(textQuantidadeDiasTrabalhados?.text.isNullOrEmpty()){
+        if(textQuantidadeHoraTrabalhada?.text.isNullOrEmpty()){
+            textQuantidadeHoraTrabalhada?.error = "Campo em branco"
+            return false
+        } else if(textQuantidadeDiasTrabalhados?.text.isNullOrEmpty()){
             textQuantidadeDiasTrabalhados?.error = "Campo em branco!"
             return false
         } else if(textQuantidadeHorasDia?.text.isNullOrEmpty()){
             textQuantidadeHorasDia?.error = "Campo em branco!"
-            return false
-        } else (textQuantidadeHoraTrabalhada?.text.isNullOrEmpty()){
-            textQuantidadeHoraTrabalhada?.error = "Campo em branco"
         }
-
-
+            return true
     }
+
+
 
     private fun calculaSalario(qtdHoraDia: Int, qtdDiasTrabalhados: Int, valHoraTrabalhada: Float) {
         // Variáveis de Desconto
@@ -99,6 +100,3 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-private operator fun Boolean.invoke(function: () -> Unit) {
-
-}
