@@ -60,18 +60,27 @@ class MainActivity : AppCompatActivity() {
         val descINSS = salarioBruto * inss
         val descFTGS = salarioBruto * fgts
         val salarioLiquido = salarioBruto - (descFTGS + descINSS)
-      //  mostraResultado(salarioLiquido, salarioBruto, descINSS, descFTGS)
-        ResultadoBottomFragment().show(supportFragmentManager, "Resultado")
+      mostraResultado(salarioLiquido, salarioBruto, descINSS, descFTGS)
+
     }
 
     private fun mostraResultado(salarioLiquido: Double, salarioBruto: Float, descINSS: Double, descFTGS: Double) {
         text_view_salarioLiquido?.let {
             it.text = "Salário Líquido R$${salarioLiquido}"
         }
-        text_view_descFGTS
-        text_view_salarioBruto?.text = "Salário Bruto: R$${salarioBruto}"
-        text_view_descINSS?.text = "Desconto INSS R$${descINSS}"
-        text_view_descFGTS?.text = "Desconto FGTS R$${descFTGS}"
+
+        text_view_descFGTS?.let{
+            it.text = "Desconto FGTS R$${descFTGS}"
+        }
+
+        text_view_salarioBruto?.let {
+            it.text = "Salário Bruto: R$${salarioBruto}"
+        }
+
+        text_view_descINSS?.let{
+            it.text = "Desconto INSS R$${descINSS}"
+        }
+
     }
 
     private fun encontraViewPeloId(){
